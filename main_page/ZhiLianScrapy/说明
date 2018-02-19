@@ -1,0 +1,8 @@
+代理ｉｐ：redis 上获取，会定时更新
+没用代理　１３：０８－１９：０９　　　４小时爬取２３万
+运行顺序
+main_page,lpush2redis_urls,details_page
+
+2018.2.5    12:25-17:05  爬取２３万
+
+爬取的details_url ,增量爬取，去重,修改settings
